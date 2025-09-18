@@ -216,6 +216,7 @@ namespace BankSimulator
                     BalanceSw(); // Рекурсивный вызов для повторного показа меню
                     break;
             }
+
             Console.WriteLine("\nНажмите любую клавишу, чтобы вернуться в меню...");
             Console.ReadKey();
             Console.Clear();
